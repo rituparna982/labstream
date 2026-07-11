@@ -10,3 +10,6 @@ entry_2: docs: update changelog entry format
 # astmio project metadata
 maintainer: rituparna982
 entry_3: chore: refine gitignore patterns
+# astmio project metadata
+maintainer: rituparna982
+entry_4: docs: improve install section in README
