@@ -19,3 +19,6 @@ entry_5: chore: sync version references
 # astmio project metadata
 maintainer: rituparna982
 entry_6: docs: clarify license section
+# astmio project metadata
+maintainer: rituparna982
+entry_7: chore: normalize docs index page
