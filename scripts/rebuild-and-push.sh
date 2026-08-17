@@ -1,5 +1,5 @@
 #!/bin/bash
-# Rebuild astmio commit history with rituparna982 attribution and
+# Rebuild labstream commit history with rituparna982 attribution and
 # backdated commits spread over July 7-15, 2026 for GitHub contributions.
 #
 # Usage:
@@ -15,13 +15,13 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 SOURCE_REPO="${SOURCE_REPO:-https://github.com/PrasoonPratham/astmio.git}"
 TARGET_DIR="${TARGET_DIR:-$PROJECT_ROOT}"
 GITHUB_USER="${GITHUB_USER:-rituparna982}"
-GITHUB_REPO="${GITHUB_REPO:-astmio}"
+GITHUB_REPO="${GITHUB_REPO:-labstream}"
 GIT_NAME="${GIT_NAME:-Rituparna Satpathy}"
 GIT_EMAIL="${GIT_EMAIL:-172102956+rituparna982@users.noreply.github.com}"
 START_DATE="${START_DATE:-2026-07-07T09:30:00}"
 END_DATE="${END_DATE:-2026-07-15T20:45:00}"
-REF_CLONE="${REF_CLONE:-/tmp/astmio-ref-$$}"
-SCRATCH_DIR="${SCRATCH_DIR:-/tmp/astmio-build-$$}"
+REF_CLONE="${REF_CLONE:-/tmp/labstream-ref-$$}"
+SCRATCH_DIR="${SCRATCH_DIR:-/tmp/labstream-build-$$}"
 
 COMMITS=(
   "678f13b3|feat: Update license and add attribution"

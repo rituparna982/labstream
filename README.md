@@ -1,6 +1,6 @@
-ASTMIO
+LabStream
 
-`astmio` is a Python library designed to handle ASTM communication protocols used in medical and laboratory equipment. It provides tools to parse, build, and transmit ASTM E1381/E1394 messages over serial connections, making it easy to integrate lab machines like blood analyzers with custom Laboratory Information Systems (LIS).
+`labstream` is a Python library designed to handle ASTM communication protocols used in medical and laboratory equipment. It provides tools to parse, build, and transmit ASTM E1381/E1394 messages over serial connections, making it easy to integrate lab machines like blood analyzers with custom Laboratory Information Systems (LIS).
 
 ## Features
 
@@ -9,7 +9,7 @@ ASTMIO
 *   Customizable message mapping and field-level access
 *   Built with extensibility in mind for LIS and middleware integration
 
-Read the docs for more info: https://rituparna982.github.io/astmio/
+Read the docs for more info: https://rituparna982.github.io/labstream/
 
 ## License
 

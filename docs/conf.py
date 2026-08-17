@@ -45,7 +45,7 @@ master_doc = 'index'
 
 # -- Project information -----------------------------------------------------
 
-project = 'astmio'
+project = 'labstream'
 copyright = '2025, Rituparna Satpathy'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -126,7 +126,7 @@ html_theme = 'furo'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_baseurl = 'https://rituparna982.github.io/astmio/'
+html_baseurl = 'https://rituparna982.github.io/labstream/'
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
